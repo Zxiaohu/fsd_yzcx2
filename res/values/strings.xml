@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">物业助手副本</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="blue1">#33B5E5</color>
+    <color name="blue2">#0068B7</color>
+    <color name="orange">#FFBB33</color>
+    <color name="orange1">#35FFBB33</color>
+    <color name="blue3">#70E1FF</color>
+    <color name="blue4">#cbf3f8</color>
+    <color name="huise">#c0c0c0</color>
+    <color name="huise1">#e6e6e6</color>
+    <color name="huise2">#EBEBEB</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#cc4444</color>
+    <color name="black">#000</color>
+    <color name="green">#669900</color>
+    <color name="red1">#FFADC2</color>
+
+    <string name="bule">#33B5E5</string>
+    <string name="red">#cc4444</string>
+
+    <!-- 请求网络的参数 -->
+    <!-- 手机号 -->
+    <string name="uname">uname</string>
+
+    <!--
+对接参数
+houseid  房间名称id
+Complainer	派单人 业主姓名
+TelNumber	业主电话
+Content	        内容
+ComplainTypeID	主服务id
+ComplainSubID	子服务项id
+    -->
+    <string-array name="paigong_param">
+        <item>houseid</item>
+        <item>Complainer</item>
+        <item>TelNumber</item>
+        <item>Content</item>
+        <item>ComplainTypeID</item>
+        <item>ComplainSubID</item>
+    </string-array>
+
+    <string-array name="budle_key2paigong">
+        <item>typeid</item>
+        <item>typename</item>
+        <item>subtypeid</item>
+        <item>subtypename</item>
+    </string-array>
+
+
+    <string-array name="allinfos_keys">
+        <item>PrecinctID</item>
+        <item>BuildingID</item>
+        <item>FloorID</item>
+        <item>RoomID</item>
+        <item>houseid</item>
+        <item>operate</item>
+    </string-array>
+
+    <string-array name="userinfo_item">
+        <item>昵称</item>
+        <item>住址</item>
+        <item>收货地址</item>
+        <item>积分</item>
+        <item>密码</item>
+    </string-array>
+
+    <string name="fuwu_item">{"fuwu_items":[{"id":"service01","name":"日常报修"},{"id":"service02","name":"有偿服务"},{"id":"service03","name":"投诉与建议"},{"id":"service04","name":"更多待开发"}]}</string>
+    <string name="ceshi">测试</string>
+    <string name="oderid">complainid</string>
+    <string name="task_prigress">派工进度</string>
+    <string name="task_detail">派工详情</string>
+    <string name="configtype">configtype</string>
+    <string name="office_telinfo">telinfo</string>
+    <string name="user_detail">个人信息详情</string>
+    <string name="allinfo">allinfo</string>
+    <string name="black">#000</string>
+
+
+</resources>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.382"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.236"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/dimen_720maxspacing"
+        android:layout_marginRight="@dimen/dimen_720maxspacing"
+        android:background="@drawable/shape_ly_bg"
+        android:orientation="vertical" >
+
+        <com.fsd.owner.property.ui.view.et.EditextDelete
+            android:id="@+id/et_name"
+            style="@style/style_login_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_720height"
+            android:hint="请输入编号/手机号:" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="@color/huise1" />
+
+        <com.fsd.owner.property.ui.view.et.EditextDelete
+            android:id="@+id/et_pwd"
+            style="@style/style_login_et"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_720height"
+            android:hint="请输入密码:"
+            android:password="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.618"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_720height"
+            android:layout_margin="@dimen/dimen_720maxspacing"
+            android:background="@drawable/seletor_btn"
+            android:text="登   录"
+            android:textColor="@color/blue1"
+            android:textSize="@dimen/medium" />
+
+        <TextView
+            android:id="@+id/tv_rel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_720height"
+            android:text="房号注册"
+            android:gravity="center"
+            android:drawableStart="@drawable/circle"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/medium" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_login.xml -->

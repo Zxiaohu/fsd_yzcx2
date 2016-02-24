@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/blue4"
+              android:orientation="vertical">
+
+    <com.fsd.owner.property.ui.view.TitleBar
+        android:id="@+id/tb_userinfo_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.fsd.owner.property.ui.view.TitleBar>
+
+    <com.fsd.owner.property.ui.view.SameTabItem
+        android:id="@+id/sti_r1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_720height"
+        android:orientation="horizontal"/>
+
+    <com.fsd.owner.property.ui.view.SameTabItem
+        android:id="@+id/sti_r2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_720height"
+        android:orientation="horizontal"/>
+
+    <com.fsd.owner.property.ui.view.SameTabItem
+        android:id="@+id/sti_r3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_720height"/>
+
+
+</LinearLayout><!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_userinfo_detail.xml -->

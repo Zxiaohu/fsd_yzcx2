@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_720height"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_r1c1"
+        style="@style/style_tv_info_item"
+        android:clickable="true"
+        android:layout_marginLeft="@dimen/dimen_720maxspacing"
+        android:text="@string/ceshi"/>
+    <TextView
+        android:id="@+id/tv_r1c2"
+        android:clickable="true"
+        style="@style/style_tv_info_item"
+        android:layout_marginLeft="@dimen/dimen_720maxspacing"
+        android:layout_marginRight="@dimen/dimen_720maxspacing"
+        android:text="@string/ceshi"/>
+</merge><!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/userinfo_detail_item.xml -->

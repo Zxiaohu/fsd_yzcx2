@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.fsd.owner.property.ui.view.TitleBar
+        android:id="@+id/tb_task_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.fsd.owner.property.ui.view.lv.MyListView
+        android:id="@+id/lv_task_list"
+        style="@style/style_lv_base"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout><!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_tasklist.xml -->

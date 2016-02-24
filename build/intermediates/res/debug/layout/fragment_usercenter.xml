@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/huise2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_720height"
+        android:background="@color/blue1"
+        android:gravity="center"
+        android:text="个人中心"
+        android:textColor="@color/white"
+        android:textSize="@dimen/large" />
+
+    <View style="@style/style_border_hline" 
+        android:layout_marginTop="@dimen/dimen_720maxspacing"/>
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/prl_title"
+        android:layout_width="fill_parent"
+        android:layout_height="96dp"
+        android:background="@drawable/seletor_tv" >
+
+        <ImageView
+            android:id="@+id/top_left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:paddingLeft="@dimen/dimen_720maxspacing"
+            android:layout_alignParentTop="true"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="20%"
+            android:src="@drawable/userhead" />
+
+        <TextView
+            android:id="@+id/top_right_top"
+            style="@style/style_uc_tv_base"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/top_left"
+            app:layout_heightPercent="50%"
+            app:layout_widthPercent="60%"
+            android:gravity="center_vertical|bottom"
+            android:layout_marginBottom="@dimen/dimen_720minspacing"
+            android:text="用户名" />
+
+        <TextView
+            android:id="@+id/top_right_bottom"
+            style="@style/style_uc_tv_base"
+            android:layout_below="@+id/top_right_top"
+            android:layout_toRightOf="@+id/top_left"
+            app:layout_heightPercent="50%"
+            app:layout_widthPercent="60%"
+            android:gravity="center_vertical|top"
+            android:layout_marginTop="@dimen/dimen_720minspacing"
+            android:text="手机号" />
+
+        <ImageView
+            android:id="@+id/top_right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_toRightOf="@+id/top_right_top"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="40%"
+            android:scaleType="center"
+            android:src="@drawable/right_a" />
+    </android.support.percent.PercentRelativeLayout>
+
+    <View
+        style="@style/style_border_hline"
+        android:layout_marginBottom="@dimen/dimen_720largespacing" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/function_list" />
+
+</LinearLayout><!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_usercenter.xml -->

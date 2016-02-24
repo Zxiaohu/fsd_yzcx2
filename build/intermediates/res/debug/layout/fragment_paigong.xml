@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.fsd.owner.property.ui.view.TitleBar
+        android:id="@+id/tb_pg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.fsd.owner.property.ui.view.et.EditextDelete
+        android:id="@+id/et_pg_content"
+        style="@style/style_et_update"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_720height64"
+        android:hint="请描述一下" />
+
+    <View style="@style/style_border_etline" />
+
+    <com.fsd.owner.property.ui.view.SimpleItem
+        android:id="@+id/si_select_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/style_border_etline" />
+
+    <com.fsd.owner.property.ui.view.SimpleItem
+        android:id="@+id/si_select_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View style="@style/style_border_etline" />
+
+    <Button
+        android:id="@+id/btn_pg_subit"
+        style="@style/style_btn_common"
+        android:background="@drawable/seletor_btn1"
+        android:layout_width="match_parent"
+        android:text="提 交 派 工 单"
+        android:layout_height="@dimen/dimen_720height" />
+
+</LinearLayout><!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_paigong.xml -->

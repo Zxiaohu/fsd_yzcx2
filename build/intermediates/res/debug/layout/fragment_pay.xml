@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/huise2">
+
+    <com.fsd.owner.property.ui.view.TitleBar
+        android:id="@+id/tb_fw_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridView 
+        android:id="@+id/gv_subservice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_720largespacing"
+        android:horizontalSpacing="0.5dp"
+        android:numColumns="2"
+        android:soundEffectsEnabled="true"
+        android:verticalSpacing="0.5dp"/>
+
+    
+    
+    
+</LinearLayout><!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_pay.xml -->

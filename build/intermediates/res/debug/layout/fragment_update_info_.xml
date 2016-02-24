@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.fsd.owner.property.ui.view.TitleBar
+        android:id="@+id/tb_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.fsd.owner.property.ui.view.et.EditextDelete
+        android:id="@+id/et_update"
+        style="@style/style_et_update"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_720height" />
+
+    <View style="@style/style_border_etline" />
+
+</LinearLayout><!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_update_info_.xml -->

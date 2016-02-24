@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/huise2"
+              android:orientation="vertical">
+
+    <com.fsd.owner.property.ui.view.TitleBar
+        android:id="@+id/tb_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.fsd.owner.property.ui.view.TitleBar>
+
+    <ListView
+        android:id="@+id/lv_tels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    </ListView>
+</LinearLayout>
+<!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_tel.xml -->

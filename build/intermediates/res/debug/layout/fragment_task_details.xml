@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/pry_taskdetail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_r1c1"
+            style="@style/style_tv_detail"
+            android:layout_alignParentTop="true"
+            android:text="@string/ceshi"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="25%" />
+
+        <TextView
+            android:id="@+id/tv_r1c2"
+            style="@style/style_tv_detail"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_r1c1"
+            android:text="@string/ceshi"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="25%" />
+
+        <TextView
+            android:id="@+id/tv_r1c3"
+            style="@style/style_tv_detail"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_r1c2"
+            android:text="@string/ceshi"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="25%" />
+
+        <TextView
+            android:id="@+id/tv_r1c4"
+            style="@style/style_tv_detail"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/tv_r1c3"
+            android:text="@string/ceshi"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="25%" />
+
+
+        <TextView
+            android:id="@+id/tv_r2c1"
+            style="@style/style_tv_detail"
+            android:layout_below="@+id/tv_r1c1"
+            android:text="@string/ceshi"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="100%" />
+
+        <TextView
+            android:id="@+id/tv_r3c1"
+            style="@style/style_tv_detail"
+            android:layout_below="@+id/tv_r2c1"
+            android:text="@string/ceshi"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="50%" />
+
+        <TextView
+            android:id="@+id/tv_r3c2"
+            style="@style/style_tv_detail"
+            android:layout_below="@+id/tv_r2c1"
+            android:layout_toRightOf="@+id/tv_r3c1"
+            android:text="@string/ceshi"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="50%" />
+
+        <TextView
+            android:id="@+id/tv_r4_c1"
+            style="@style/style_tv_detail"
+            android:layout_below="@+id/tv_r3c1"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="50%" />
+
+        <TextView
+            android:id="@+id/tv_r4_c2"
+            style="@style/style_tv_detail"
+            android:layout_below="@+id/tv_r3c1"
+            android:layout_toRightOf="@+id/tv_r4_c1"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="50%" />
+
+        <TextView
+            android:id="@+id/tv_r5_c1"
+            style="@style/style_tv_detail"
+            android:layout_below="@+id/tv_r4_c2"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="25%" />
+
+        <TextView
+            android:id="@+id/tv_r5_c2"
+            style="@style/style_tv_detail"
+            android:layout_below="@+id/tv_r4_c2"
+            android:layout_toRightOf="@+id/tv_r5_c1"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="25%" />
+
+        <TextView
+            android:id="@+id/tv_r5_c3"
+            style="@style/style_tv_detail"
+            android:layout_below="@+id/tv_r4_c2"
+            android:layout_toRightOf="@+id/tv_r5_c2"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="25%" />
+
+        <TextView
+            android:id="@+id/tv_r5_c4"
+            style="@style/style_tv_detail"
+            android:layout_below="@+id/tv_r4_c1"
+            android:layout_toRightOf="@+id/tv_r5_c3"
+            app:layout_heightPercent="20%"
+            app:layout_widthPercent="25%" />
+    </android.support.percent.PercentRelativeLayout>
+</LinearLayout>
+<!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_task_details.xml -->

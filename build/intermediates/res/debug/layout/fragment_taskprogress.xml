@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <com.fsd.owner.property.ui.view.lv.MyListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/style_lv_base"
+        android:id="@+id/lv_task_progress"/>
+</LinearLayout><!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/layout/fragment_taskprogress.xml -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <corners android:radius="5dp"/>
+    <solid android:color="@color/red"/>
+
+</shape>
+<!-- From: file:/D:/xiaohuide/201407workspace/fsd_yzcx_copy/物业助手副本/res/drawable-hdpi/shape_toast_danger.xml -->
